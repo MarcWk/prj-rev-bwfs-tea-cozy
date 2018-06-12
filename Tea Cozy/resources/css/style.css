@@ -1,0 +1,146 @@
+/* General settings*/
+
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+/* Header */
+
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+  font-size: 22px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav span{
+  margin: 10px;
+}
+
+.right{
+  position: absolute;
+  right: 10px;
+    }
+
+/* Mission */
+
+.beneathheader{
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto 0px auto;
+}
+
+.zwartbalk{
+  background-color: black;
+  position: absolute;
+  width: 1200px;
+  margin: 70px auto 0px auto;
+  top: 50%;
+    }
+
+/* Tea of Month */
+
+.TofM{
+  width: 1000px;
+  margin: 130px auto 0px auto;
+   }
+
+.threepicsdiv{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+.twopicsdiv{
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+.twhun{
+  height: 200px;
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+    }
+
+.threepics p{
+  font-size: 22px;
+  margin-top: 10px;
+  padding-top: 0px;
+    }
+
+/* Locations */
+
+.locationscontainer{
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  }
+
+.locationscontainer h2{
+  position: relative;
+  background-color: transparent;
+  margin-top: 125px;
+  margin-bottom: 15px;
+  text-align: center;
+  }
+
+.locationscontainer img{
+  position: absolute;
+  z-index:-2;
+  top: 0px;
+  left: 0px;
+  width: 1200px;
+    }
+
+.threelocation{
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+        }
+
+/* Contact */
+
+.mailtel{
+  height: 200px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+.left{
+  text-align: left;
+}
